@@ -1,0 +1,19 @@
+config_version=5
+
+[application]
+
+config/name="M08. Start a Dialogue (Workbook)"
+config/features=PackedStringArray("4.3")
+config/icon="res://icon_start_a_dialog.png"
+config/tags=PackedStringArray("workbook")
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/stretch/mode="viewport"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

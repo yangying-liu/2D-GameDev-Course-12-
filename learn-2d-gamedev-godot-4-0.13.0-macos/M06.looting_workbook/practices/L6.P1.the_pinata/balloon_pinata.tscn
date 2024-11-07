@@ -1,0 +1,38 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://practices/L6.P1.the_pinata/balloon_pinata.gd" id="1_wrhfn"]
+[ext_resource type="PackedScene" path="res://practices/L6.P1.the_pinata/candy/candy_blue.tscn" id="2_pqysq"]
+[ext_resource type="PackedScene" path="res://practices/L6.P1.the_pinata/candy/candy_green.tscn" id="3_d6n3s"]
+[ext_resource type="PackedScene" path="res://practices/L6.P1.the_pinata/candy/candy_red.tscn" id="4_tbo8t"]
+[ext_resource type="Material" path="res://practices/L6.P1.the_pinata/material.tres" id="5_6mi8a"]
+[ext_resource type="Texture2D" path="res://practices/L6.P1.the_pinata/balloon_tail.png" id="6_c1n4x"]
+[ext_resource type="Texture2D" path="res://practices/L6.P1.the_pinata/balloon_top.png" id="7_7yxk8"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_xb8xq"]
+radius = 47.0
+height = 166.0
+
+[node name="BalloonPinata" type="Area2D"]
+position = Vector2(960, 540)
+collision_layer = 2
+collision_mask = 0
+script = ExtResource("1_wrhfn")
+possible_candies = Array[PackedScene]([ExtResource("2_pqysq"), ExtResource("3_d6n3s"), ExtResource("4_tbo8t")])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -16)
+shape = SubResource("CapsuleShape2D_xb8xq")
+
+[node name="CanvasGroup" type="CanvasGroup" parent="."]
+material = ExtResource("5_6mi8a")
+position = Vector2(0, 33)
+
+[node name="Bottom" type="Sprite2D" parent="CanvasGroup"]
+position = Vector2(0, -37)
+texture = ExtResource("6_c1n4x")
+offset = Vector2(0, 34)
+
+[node name="Top" type="Sprite2D" parent="CanvasGroup"]
+position = Vector2(0, -79)
+texture = ExtResource("7_7yxk8")
+offset = Vector2(0, 5)

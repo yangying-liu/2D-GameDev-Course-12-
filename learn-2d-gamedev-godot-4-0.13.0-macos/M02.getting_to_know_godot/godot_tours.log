@@ -1,0 +1,305 @@
+2024-10-30T09:18:41:INFO: { "OS": "Linux", "video_adapter_driver_info": ["", ""], "screen_size": (3840, 2160), "screen_dpi": 163, "screen_scale": 1, "cores": 24, "locale": "en_US" }
+2024-10-30T09:18:41:INFO: [step_commands: 0]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/resources/resource_format_text.cpp:453 - res://start.tscn:7 - ext_resource, invalid UID: uid://dq3p4x4do28l6 - using text path instead: res://levels/rooms/room_a.tscn
+
+2024-10-30T09:18:47:INFO: [step_commands: 1]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/resources/resource_format_text.cpp:453 - res://start.tscn:7 - ext_resource, invalid UID: uid://dq3p4x4do28l6 - using text path instead: res://levels/rooms/room_a.tscn
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+
+2024-10-30T09:18:51:INFO: [step_commands: 2]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/resources/resource_format_text.cpp:453 - res://start.tscn:7 - ext_resource, invalid UID: uid://dq3p4x4do28l6 - using text path instead: res://levels/rooms/room_a.tscn
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+
+2024-10-30T09:18:55:INFO: [step_commands: 3]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/resources/resource_format_text.cpp:453 - res://start.tscn:7 - ext_resource, invalid UID: uid://dq3p4x4do28l6 - using text path instead: res://levels/rooms/room_a.tscn
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+
+2024-10-30T09:19:01:INFO: [step_commands: 4]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/resources/resource_format_text.cpp:453 - res://start.tscn:7 - ext_resource, invalid UID: uid://dq3p4x4do28l6 - using text path instead: res://levels/rooms/room_a.tscn
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+Create Node
+
+2024-10-30T09:19:05:INFO: [step_commands: 5]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/resources/resource_format_text.cpp:453 - res://start.tscn:7 - ext_resource, invalid UID: uid://dq3p4x4do28l6 - using text path instead: res://levels/rooms/room_a.tscn
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+Create Node
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+
+2024-10-30T09:19:10:INFO: [step_commands: 6]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/resources/resource_format_text.cpp:453 - res://start.tscn:7 - ext_resource, invalid UID: uid://dq3p4x4do28l6 - using text path instead: res://levels/rooms/room_a.tscn
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+Create Node
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+
+2024-10-30T09:19:19:INFO: [step_commands: 7]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+
+2024-10-30T09:19:22:INFO: [step_commands: 8]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+
+2024-10-30T09:19:25:INFO: [step_commands: 9]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+
+2024-10-30T09:19:29:INFO: [step_commands: 10]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+
+2024-10-30T09:19:32:INFO: [step_commands: 11]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+
+2024-10-30T09:19:34:INFO: [step_commands: 12]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+
+2024-10-30T09:19:36:INFO: [step_commands: 13]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+
+2024-10-30T09:19:40:INFO: [step_commands: 14]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+
+2024-10-30T09:19:44:INFO: [step_commands: 15]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+
+2024-10-30T09:19:52:INFO: [step_commands: 16]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+
+2024-10-30T09:19:56:INFO: [step_commands: 17]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+  scene/gui/control.cpp:1448 - Nodes with non-equal opposite anchors will have their size overridden after _ready(). 
+  If you want to set size, change the anchors or consider using set_deferred().
+
+2024-10-30T09:20:07:INFO: [step_commands: 18]
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 4.6 (Core Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319 - Compatibility - Using Device: AMD - AMD Radeon RX 6600 XT (radeonsi, navi23, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)
+
+--- Debugging process stopped ---
+
