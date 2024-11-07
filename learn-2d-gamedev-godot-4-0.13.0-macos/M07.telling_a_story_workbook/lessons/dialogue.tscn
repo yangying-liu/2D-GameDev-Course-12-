@@ -1,9 +1,20 @@
-[gd_scene load_steps=2 format=3 uid="uid://cf4xjs4e3g1bd"]
+[gd_scene load_steps=6 format=3 uid="uid://cf4xjs4e3g1bd"]
 
-[ext_resource type="Texture2D" uid="uid://ogu21ixgdm50" path="res://assets/test.svg" id="1_6xviy"]
+[ext_resource type="Shader" path="res://assets/sliding_background.gdshader" id="1_w5t3o"]
+[ext_resource type="Texture2D" uid="uid://bnly1gkbxw6b5" path="res://assets/bubble_pattern.png" id="2_iypja"]
+[ext_resource type="Texture2D" uid="uid://copkt78vgp37i" path="res://assets/sophia.png" id="3_tvokk"]
+[ext_resource type="Texture2D" uid="uid://d000xjtr4iqtk" path="res://assets/emotion_regular.png" id="4_k0fdt"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fxcpu"]
+shader = ExtResource("1_w5t3o")
+shader_parameter/bg_color = Color(0.996078, 0.878431, 0.564706, 1)
+shader_parameter/pattern_color = Color(0.980392, 0.45098, 0.231373, 1)
+shader_parameter/pattern_size = 256.0
+shader_parameter/pattern_sampler = ExtResource("2_iypja")
 
 [node name="Dialogue" type="Control"]
 layout_mode = 3
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_right = -960.0
@@ -11,25 +22,67 @@ offset_bottom = -540.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="TextureRect" type="TextureRect" parent="."]
-layout_mode = 1
-offset_right = 960.0
-offset_bottom = 540.0
-texture = ExtResource("1_6xviy")
-expand_mode = 1
-
-[node name="TextureRect2" type="TextureRect" parent="."]
+[node name="Background" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_fxcpu")
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 2.001
-anchor_top = 1.991
-anchor_right = 2.001
-anchor_bottom = 1.991
-offset_left = -959.96
-offset_top = -540.14
-offset_right = 0.0397949
-offset_bottom = -0.140015
+anchor_right = 2.0
+anchor_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Body" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.982
+anchor_bottom = 1.994
+offset_left = 64.0
+offset_top = 375.0
+offset_right = -307.72
+offset_bottom = 0.23999
+texture = ExtResource("3_tvokk")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextureRect" type="TextureRect" parent="Body"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.016
+anchor_right = 0.993
+anchor_bottom = 1.016
+offset_left = -4.0
+offset_top = -0.232
+offset_right = -0.00299072
+offset_bottom = -0.231995
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_k0fdt")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.118
+anchor_right = 2.004
+anchor_bottom = 2.003
+offset_left = 37.72
+offset_top = 545.0
+offset_right = 0.15979
+offset_bottom = -423.62
+text = "Hello World!"
+
+[node name="NextButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 2.0
+anchor_top = 2.0
+anchor_right = 2.0
+anchor_bottom = 2.0
+offset_left = -56.0
+offset_top = -41.0
+offset_right = -11.0
+offset_bottom = -10.0
 grow_horizontal = 0
 grow_vertical = 0
-texture = ExtResource("1_6xviy")
-expand_mode = 1
+text = "Next"
