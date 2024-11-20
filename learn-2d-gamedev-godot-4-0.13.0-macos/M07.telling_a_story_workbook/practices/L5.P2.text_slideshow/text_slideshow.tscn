@@ -1,12 +1,13 @@
-[gd_scene load_steps=4 format=3]
+[gd_scene load_steps=4 format=3 uid="uid://12egy0mc3cc4"]
 
-[ext_resource type="Material" path="res://practices/L6.P1.poetry/assets/practice_background_material.tres" id="1_85yr3"]
-[ext_resource type="Theme" path="res://practices/L5.P2.text_slideshow/assets/practice_exercises_theme.tres" id="2_vj1rf"]
+[ext_resource type="Material" uid="uid://blciib2n6bpvf" path="res://practices/L6.P1.poetry/assets/practice_background_material.tres" id="1_85yr3"]
+[ext_resource type="Theme" uid="uid://bnmph65g7q2l3" path="res://practices/L5.P2.text_slideshow/assets/practice_exercises_theme.tres" id="2_vj1rf"]
 [ext_resource type="Script" path="res://practices/L5.P2.text_slideshow/text_slideshow.gd" id="3_mrf4g"]
 
 [node name="TextSlideshow" type="ColorRect"]
 material = ExtResource("1_85yr3")
 custom_minimum_size = Vector2(1920, 1080)
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
