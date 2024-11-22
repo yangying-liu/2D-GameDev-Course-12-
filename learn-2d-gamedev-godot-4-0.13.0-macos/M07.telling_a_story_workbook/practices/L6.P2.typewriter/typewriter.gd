@@ -27,3 +27,8 @@ func _ready() -> void:
 	# Make sure you animate the `visible_ratio` over `appearance_time`
 	# Start playing the sound
 	# And also remember to stop it!
+	rich_text_label.visible_ratio = 0
+	var tween := create_tween()
+	tween.tween_property(rich_text_label, "visible_ratio", 1, appearance_time)
+	audio_stream_player.play()
+	tween.finished.connect(audio_stream_player.stop)
