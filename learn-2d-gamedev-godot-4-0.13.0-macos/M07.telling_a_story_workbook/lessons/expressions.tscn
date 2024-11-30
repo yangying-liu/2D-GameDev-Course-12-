@@ -1,0 +1,102 @@
+[gd_scene load_steps=8 format=3 uid="uid://n2xnhq5txayq"]
+
+[ext_resource type="Theme" uid="uid://cbg6qvbau6hty" path="res://lessons/main_theme.tres" id="1_sbu5i"]
+[ext_resource type="Script" path="res://lessons/expressions.gd" id="2_aeep0"]
+[ext_resource type="Shader" path="res://assets/sliding_background.gdshader" id="3_mtyas"]
+[ext_resource type="Texture2D" uid="uid://bnly1gkbxw6b5" path="res://assets/bubble_pattern.png" id="4_mv7cn"]
+[ext_resource type="Texture2D" uid="uid://copkt78vgp37i" path="res://assets/sophia.png" id="5_iw8io"]
+[ext_resource type="Texture2D" uid="uid://d000xjtr4iqtk" path="res://assets/emotion_regular.png" id="6_67jpy"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_e1gnp"]
+shader = ExtResource("3_mtyas")
+shader_parameter/bg_color = Color(0.996078, 0.878431, 0.564706, 1)
+shader_parameter/pattern_color = Color(1, 0.666667, 0.278431, 1)
+shader_parameter/pattern_size = 256.0
+shader_parameter/pattern_sampler = ExtResource("4_mv7cn")
+
+[node name="Expressions" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_sbu5i")
+script = ExtResource("2_aeep0")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_e1gnp")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Body" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5_iw8io")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Expression" type="TextureRect" parent="Body"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.044
+anchor_right = 0.974
+anchor_bottom = 1.0
+offset_left = 22.0
+offset_top = -6.52
+offset_right = 20.316
+offset_bottom = -4.33203
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("6_67jpy")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 32.0
+offset_right = 517.0
+offset_bottom = 212.0
+metadata/_edit_group_ = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonSophia" type="Button" parent="VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Sophia"
+
+[node name="ButtonPink" type="Button" parent="VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Pink"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonRegular" type="Button" parent="VBoxContainer/HBoxContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Regular"
+
+[node name="ButtonSad" type="Button" parent="VBoxContainer/HBoxContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Sad"
+
+[node name="ButtonHappy" type="Button" parent="VBoxContainer/HBoxContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Happy"
