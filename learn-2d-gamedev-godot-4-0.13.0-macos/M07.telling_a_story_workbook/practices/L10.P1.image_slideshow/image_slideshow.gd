@@ -23,6 +23,7 @@ func show_image() -> void:
 
 # Increments the index each time is called.
 func advance() -> void:
+	item_index += 1
 	# make sure to increment the `item_index`
 	if item_index >= items.size():
 		item_index = 0
