@@ -18,7 +18,7 @@ func _ready() -> void:
 
 # Displays the image
 func show_image() -> void:
-	pass
+	texture_rect.texture = items[item_index]
 
 
 # Increments the index each time is called.
