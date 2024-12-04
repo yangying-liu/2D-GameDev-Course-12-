@@ -12,31 +12,58 @@ var expressions := {
 	"sad": preload ("res://assets/emotion_sad.png"),
 }
 
+var bodies := {
+	"sophia": preload ("res://assets/sophia.png"),
+	"pink": preload ("res://assets/pink.png")
+}
+
 var current_item_index := 0
 
-## An array of dictionaries. Each dictionary has two properties:
+## Data to display in the dialogue. Each dictionary in this array has three properties:
+##
 ## - expression: a [code]Texture[/code] containing an expression
 ## - text: a [code]String[/code] containing the text the character says
+## - character: a [code]Texture[/code] representing the character
 var dialogue_items: Array[Dictionary] = [
 	{
 		"expression": expressions["regular"],
-		"text": "I'm learning about Arrays..."
-	},
-	{
-		"expression": expressions["sad"],
-		"text": "... and it is a little bit complicated."
-	},
-	{
-		"expression": expressions["happy"],
-		"text": "Let's see if I got it right: an array is a list of values!",
+		"text": "I've been studying arrays and dictionaries lately.",
+		"character": bodies["sophia"],
 	},
 	{
 		"expression": expressions["regular"],
-		"text": "Did I get it right? Did I?",
+		"text": "Oh, nice. How has it been going?",
+		"character": bodies["pink"],
+	},
+	{
+		"expression": expressions["sad"],
+		"text": "Well... it's a little complicated!",
+		"character": bodies["sophia"],
+	},
+	{
+		"expression": expressions["sad"],
+		"text": "Oh!",
+		"character": bodies["pink"],
+	},
+	{
+		"expression": expressions["regular"],
+		"text": "It sure takes time to click at first.",
+		"character": bodies["pink"],
 	},
 	{
 		"expression": expressions["happy"],
-		"text": "Hehe! Bye bye~!",
+		"text": "If you keep at it, eventually, you'll get the hang of it!",
+		"character": bodies["pink"],
+	},
+	{
+		"expression": expressions["regular"],
+		"text": "Mhhh... I see. I'll keep at it, then.",
+		"character": bodies["sophia"],
+	},
+	{
+		"expression": expressions["happy"],
+		"text": "Thanks for the encouragement. Time to LEARN!!!",
+		"character": bodies["sophia"],
 	},
 ]
 
@@ -51,10 +78,11 @@ func show_text() -> void:
 	var current_item := dialogue_items[current_item_index]
 	rich_text_label.text = current_item["text"]
 	expression.texture = current_item["expression"]
+	body.texture = current_item["character"]
 	# We animate the text appearing letter by letter.
 	rich_text_label.visible_ratio = 0.0
 	var tween := create_tween()
-	var text_appearing_duration := 1.0
+	var text_appearing_duration: float = current_item["text"].length() / 30.0
 	tween.tween_property(rich_text_label, "visible_ratio", 1.0, text_appearing_duration)
 
 	# This is where we play the audio. We randomize the audio playback's start
@@ -65,6 +93,11 @@ func show_text() -> void:
 	# We stop the audio when the text finishes appearing.
 	tween.finished.connect(audio_stream_player.stop)
 	slide_in()
+	
+	next_button.disabled = true
+	tween.finished.connect(func() -> void:
+		next_button.disabled = false
+	)
 
 func advance() -> void:
 	current_item_index += 1
