@@ -84,7 +84,9 @@ offset_right = -20.0
 offset_bottom = -477.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "Hello World!"
+bbcode_enabled = true
+text = "[i]hello[/i] [b]world[/b]
+"
 fit_content = true
 
 [node name="NextButton" type="Button" parent="."]
