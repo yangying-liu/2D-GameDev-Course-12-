@@ -1,17 +1,34 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
 config_version=5
 
 [application]
 
 config/name="M08. Start a Dialogue (Workbook)"
+config/tags=PackedStringArray("workbook")
 config/features=PackedStringArray("4.3")
 config/icon="res://icon_start_a_dialog.png"
-config/tags=PackedStringArray("workbook")
+
+[autoload]
+
+UITestPanel="*res://addons/gdpractice/tester/ui_test_panel.tscn"
+Metadata="*res://addons/gdpractice/practice_solutions/metadata.gd"
 
 [display]
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
 window/stretch/mode="viewport"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gdpractice/plugin.cfg")
 
 [rendering]
 
