@@ -52,36 +52,34 @@ var dialogue_items: Array[Dictionary] = [
 		"character": bodies["sophia"]
 	}
 ]
-var current_item_index := 0
 
 ## UI element that shows the texts
 @onready var rich_text_label: RichTextLabel = %RichTextLabel
-## UI element that progresses to the next text
-@onready var next_button: Button = %NextButton
+## Container for the buttons
+@onready var action_buttons_v_box_container: VBoxContainer = %ActionButtonsVBoxContainer
 ## Audio player that plays voice sounds while text is being written
 @onready var audio_stream_player: AudioStreamPlayer = %AudioStreamPlayer
 ## The character
 @onready var body: TextureRect = %Body
 ## The Expression
-@onready var expression_texture_rect: TextureRect = %Expression
+@onready var expression: TextureRect = %Expression
 
 
 func _ready() -> void:
-	show_text()
-	next_button.pressed.connect(advance)
+	show_text(0)
 
 
 ## Draws the current text to the rich text element
-func show_text() -> void:
+## [param current_item_index] Displays the currently selected index from the dialogue array
+func show_text(current_item_index: int) -> void:
 	# We retrieve the current item from the array
 	var current_item := dialogue_items[current_item_index]
 	# from the item, we extract the properties.
 	# We set the text to the rich text control
 	# And we set the appropriate expression texture
 	rich_text_label.text = current_item["text"]
-	expression_texture_rect.texture = current_item["expression"]
+	expression.texture = current_item["expression"]
 	body.texture = current_item["character"]
-
 	# We set the initial visible ratio to the text to 0, so we can change it in the tween
 	rich_text_label.visible_ratio = 0.0
 	# We create a tween that will draw the text
@@ -102,28 +100,9 @@ func show_text() -> void:
 	audio_stream_player.play(sound_start_position)
 	# We make sure the sound stops when the text finishes displaying
 	tween.finished.connect(audio_stream_player.stop)
-
+	
 	# We animate the character sliding in.
 	slide_in()
-
-	# Finally, we disable the next button until the text finishes displaying.
-	next_button.disabled = true
-	tween.finished.connect(func() -> void:
-		next_button.disabled = false
-	)
-
-
-## Progresses to the next slide.
-func advance() -> void:
-	# We increment the slide amount by 1
-	current_item_index += 1
-	if current_item_index == dialogue_items.size():
-		# if we reached the last slide, quit
-		get_tree().quit()
-	else:
-		# otherwise, show the text
-		show_text()
-
 
 ## Animates the character when they start talking
 func slide_in() -> void:
