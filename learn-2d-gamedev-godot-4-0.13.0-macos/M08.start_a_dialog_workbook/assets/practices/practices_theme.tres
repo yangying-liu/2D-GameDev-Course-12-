@@ -1,6 +1,4 @@
-[gd_resource type="Theme" load_steps=8 format=3 uid="uid://qk3rjf73qo8w"]
-
-[ext_resource type="FontFile" uid="uid://dyrsmldl66u55" path="res://assets/practices/Stacked pixel.ttf" id="1_1tfqc"]
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://qk3rjf73qo8w"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mpxf6"]
 
@@ -37,7 +35,6 @@ content_margin_bottom = 8.0
 bg_color = Color(0.156863, 0.0784314, 0.305882, 1)
 
 [resource]
-default_font = ExtResource("1_1tfqc")
 default_font_size = 32
 InventorySlotButton/base_type = &"Button"
 InventorySlotButton/styles/disabled = SubResource("StyleBoxEmpty_mpxf6")
