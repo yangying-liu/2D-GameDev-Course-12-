@@ -20,5 +20,8 @@ var items_list := {
 func _ready() -> void:
 	for item_name in items_list:
 		var button := InventorySlotButton.new()
+		button.text = item_name
+		button.amount = items_list[item_name]
+		grid_container.add_child(button)
 		# Assign the item's name and amount to the button properties.
 		# Don't forget to add the button to the grid container.

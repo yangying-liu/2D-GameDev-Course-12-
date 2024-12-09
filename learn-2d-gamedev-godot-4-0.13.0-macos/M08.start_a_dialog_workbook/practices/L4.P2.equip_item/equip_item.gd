@@ -28,6 +28,7 @@ func _ready() -> void:
 		var button := InventorySlotButton.new()
 		button.text = item_name
 		grid_container.add_child(button)
+		button.pressed.connect(display_item.bind(item_name))
 		# Connect the button here. Don't forget to use .bind()!
 
 
