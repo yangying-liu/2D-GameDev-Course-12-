@@ -19,6 +19,7 @@ config/icon="res://icon_start_a_dialog.png"
 [autoload]
 
 UITestPanel="*res://addons/gdpractice/tester/ui_test_panel.tscn"
+Metadata="*res://addons/gdpractice/practice_solutions/metadata.gd"
 
 [display]
 
