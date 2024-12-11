@@ -1,12 +1,32 @@
-[gd_scene load_steps=11 format=3 uid="uid://bqls3o5daeu2s"]
+[gd_scene load_steps=16 format=3 uid="uid://bqls3o5daeu2s"]
 
 [ext_resource type="Theme" uid="uid://cxm3e18skt2lj" path="res://lessons/assets/main_theme.tres" id="1_xdlv2"]
 [ext_resource type="Script" path="res://lessons/slideshow.gd" id="2_wbt3f"]
+[ext_resource type="Script" path="res://lessons/slideshow_entry.gd" id="3_e276p"]
 [ext_resource type="Shader" path="res://assets/sliding_background.gdshader" id="3_qyyxv"]
 [ext_resource type="Texture2D" uid="uid://bnly1gkbxw6b5" path="res://assets/bubble_pattern.png" id="4_s7o0p"]
 [ext_resource type="Texture2D" uid="uid://copkt78vgp37i" path="res://assets/sophia.png" id="5_omd3l"]
+[ext_resource type="Texture2D" uid="uid://dchimpdsnda13" path="res://assets/emotion_happy.png" id="6_mo2tb"]
 [ext_resource type="Texture2D" uid="uid://d000xjtr4iqtk" path="res://assets/emotion_regular.png" id="6_vfoky"]
 [ext_resource type="AudioStream" uid="uid://chgko4hmxwxu5" path="res://assets/talking_synth.ogg" id="7_nppuw"]
+
+[sub_resource type="Resource" id="Resource_x15p1"]
+script = ExtResource("3_e276p")
+expression = ExtResource("6_vfoky")
+character = ExtResource("5_omd3l")
+text = "I've decided to use [wave]Resources[/wave]!"
+
+[sub_resource type="Resource" id="Resource_r7klr"]
+script = ExtResource("3_e276p")
+expression = ExtResource("6_mo2tb")
+character = ExtResource("5_omd3l")
+text = "And now my properties are all well typed!"
+
+[sub_resource type="Resource" id="Resource_rci81"]
+script = ExtResource("3_e276p")
+expression = ExtResource("6_vfoky")
+character = ExtResource("5_omd3l")
+text = "It feels [tornado]Fancy![/tornado]"
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_efgpg"]
 shader = ExtResource("3_qyyxv")
@@ -30,6 +50,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_xdlv2")
 script = ExtResource("2_wbt3f")
+dialogue_items = Array[ExtResource("3_e276p")]([SubResource("Resource_x15p1"), SubResource("Resource_r7klr"), SubResource("Resource_rci81")])
 
 [node name="Background" type="ColorRect" parent="."]
 material = SubResource("ShaderMaterial_efgpg")

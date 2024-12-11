@@ -1,10 +1,9 @@
-[gd_scene load_steps=7 format=3]
+[gd_scene load_steps=6 format=3 uid="uid://ykaxob0pmmab"]
 
 [ext_resource type="Shader" path="res://assets/sliding_background.gdshader" id="1_1ev13"]
-[ext_resource type="Texture2D" path="res://assets/bubble_pattern.png" id="2_j2urx"]
+[ext_resource type="Texture2D" uid="uid://bnly1gkbxw6b5" path="res://assets/bubble_pattern.png" id="2_j2urx"]
 [ext_resource type="Script" path="res://practices/L6.P1.powered_inventory/powered_inventory.gd" id="3_dy3rn"]
-[ext_resource type="Script" path="res://practices/L6.P1.powered_inventory/powered_item.gd" id="4_4203n"]
-[ext_resource type="Theme" path="res://assets/practices/practices_theme.tres" id="5_jsi46"]
+[ext_resource type="Theme" uid="uid://qk3rjf73qo8w" path="res://assets/practices/practices_theme.tres" id="5_jsi46"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_p0ea8"]
 shader = ExtResource("1_1ev13")
@@ -15,12 +14,12 @@ shader_parameter/pattern_sampler = ExtResource("2_j2urx")
 
 [node name="PoweredInventory" type="ColorRect"]
 material = SubResource("ShaderMaterial_p0ea8")
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("3_dy3rn")
-items_list = Array[ExtResource("4_4203n")]([])
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 layout_mode = 1
