@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://cq04b7ldnfc2o"]
+[gd_scene load_steps=4 format=3 uid="uid://dgrat4mgnal50"]
 
 [ext_resource type="Script" path="res://lessons/runner.gd" id="1_60sfa"]
 [ext_resource type="Texture2D" uid="uid://c0i1ik45p7rhh" path="res://assets/runner_down.png" id="1_koyka"]
