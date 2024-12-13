@@ -1,4 +1,4 @@
-class_name PoweredItemPractice extends Resource # class_name PoweredItem extends Resource 
+class_name PoweredItem extends Resource # class_name PoweredItem extends Resource 
 
 @export var text := ""
 @export var price := 10
