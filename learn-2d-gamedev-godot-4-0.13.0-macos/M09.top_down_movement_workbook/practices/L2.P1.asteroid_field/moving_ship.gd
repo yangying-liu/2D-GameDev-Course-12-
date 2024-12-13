@@ -8,10 +8,11 @@ var direction := Vector2(0, 0)
 
 func _physics_process(_delta: float) -> void:
 	# Set the direction from keyboard inputs here.
-	direction = direction
+	direction = Input.get_vector("move_left", "move_right", "move_up", "move_down") # direction = direction
 	# Set the velocity.
-	velocity = velocity
+	velocity = direction * max_speed # velocity = velocity
 	# Move the ship by calling the appropriate function from the CharacterBody2D node.
+	move_and_slide() #
 	
 	if velocity.length() > 0.0:
 		rotation = velocity.angle()

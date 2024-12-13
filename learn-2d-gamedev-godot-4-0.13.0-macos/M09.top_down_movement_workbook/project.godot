@@ -1,22 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
 config_version=5
 
 [application]
 
 config/name="M09. Top Down Movement (Workbook)"
+config/tags=PackedStringArray("workbook")
+run/main_scene="res://lessons/runner.tscn"
 config/features=PackedStringArray("4.3")
 config/icon="res://icon_top_down_movement.png"
-config/tags=PackedStringArray("workbook")
+
+[autoload]
+
+UITestPanel="*res://addons/gdpractice/tester/ui_test_panel.tscn"
+Metadata="*res://addons/gdpractice/practice_solutions/metadata.gd"
 
 [display]
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
-window/size/mode=3
 window/stretch/mode="canvas_items"
 
 [dotnet]
 
 project/assembly_name="M09. Top Down Movement"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gdpractice/plugin.cfg")
 
 [input]
 
