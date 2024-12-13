@@ -21,6 +21,7 @@ scale_curve = SubResource("CurveTexture_gyk3c")
 radius = 52.0
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
+motion_mode = 1
 script = ExtResource("1_n4ep4")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

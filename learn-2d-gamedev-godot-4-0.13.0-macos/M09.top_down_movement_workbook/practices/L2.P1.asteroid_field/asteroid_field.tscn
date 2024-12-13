@@ -25,3 +25,4 @@ offset_right = 684.0
 offset_bottom = 300.0
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("3_jxgwa")]
+motion_mode = 0
