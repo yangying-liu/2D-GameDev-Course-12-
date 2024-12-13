@@ -8,7 +8,7 @@ extends ColorRect
 var tween: Tween
 
 # Don't forget to add a few items to the list in the Inspector!
-@export var items_list: Array[PoweredItem] = []
+@export var items_list: Array[PoweredItemPractice] = [] # @export var items_list: Array[PoweredItem] = []
 
 
 func _ready() -> void:
@@ -23,14 +23,18 @@ func _ready() -> void:
 		button.pressed.connect(display_powerups.bind(item.powerups_list))
 
 
-func display_powerups(powerups_list: Array[Power]) -> void:
+func display_powerups(powerups_list: Array[PowerPractice]) -> void: # func display_powerups(powerups_list: Array[Power]) -> void:
 	# Make sure to remove previous children before adding the new ones.
+	for child in powerups_v_box_container.get_children(): #
+		child.queue_free() #
 	# Once you removed all children, loop through the powerups_list array
 	for power in powerups_list:
 		# Create a TextureRect node.
+		var power_texture_rect := TextureRect.new() #
 		# Assign the power's image to the TextureRect node's `texture` property.
+		power_texture_rect.texture = power.image #
 		# Then, add the TextureRect as a child of powerups_v_box_container.
-		pass
+		powerups_v_box_container.add_child(power_texture_rect) # pass
 
 
 # Displays an item. Requires an item name
