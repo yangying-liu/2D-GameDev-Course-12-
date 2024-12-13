@@ -1,3 +1,6 @@
+@tool
+@icon("res://assets/dialogue_scene_icon.svg")
+
 extends Control
 
 @onready var rich_text_label: RichTextLabel = %RichTextLabel
@@ -5,9 +8,13 @@ extends Control
 @onready var audio_stream_player: AudioStreamPlayer = %AudioStreamPlayer
 @onready var body: TextureRect = %Body
 @onready var expression: TextureRect = %Expression
-@export var dialogue_items: Array[DialogueItem] = []
+@export var dialogue_items: Array[DialogueItem] = []:
+	set = set_dialogue_items
+ 
 
 func _ready() -> void:
+	if Engine.is_editor_hint():
+		return
 	show_text(0)
 
 func show_text(current_item_index: int) -> void:
@@ -55,3 +62,15 @@ func create_buttons(buttons_data: Array[DialogueChoice]) -> void:
 		else:
 			var target_line_id := choice.target_line_idx
 			button.pressed.connect(show_text.bind(target_line_id))
+
+func set_dialogue_items(new_dialogue_items: Array[DialogueItem]) -> void:
+	for index in new_dialogue_items.size():
+		if new_dialogue_items[index] == null:
+			new_dialogue_items[index] = DialogueItem.new()
+	dialogue_items = new_dialogue_items
+	update_configuration_warnings()
+
+func _get_configuration_warnings() -> PackedStringArray:
+	if dialogue_items.is_empty():
+		return ["You need at least one dialogue item for the dialogue system to work."]
+	return []
