@@ -10,7 +10,7 @@ radius = 23.0
 motion_mode = 1
 script = ExtResource("1_60sfa")
 
-[node name="Skin" type="Sprite2D" parent="."]
+[node name="_Skin" type="Sprite2D" parent="."]
 texture = ExtResource("1_koyka")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
