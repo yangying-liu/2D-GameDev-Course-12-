@@ -1,0 +1,8 @@
+res://practices/L8.P1.move_to_mouse/move_to_mouse.tscn
+res://addons/gdpractice/assets/theme.tres
+res://practices/L8.P1.move_to_mouse/move_to_mouse.gd
+res://lessons/runner.tscn
+res://practices/L2.P1.asteroid_field/asteroid_field.tscn
+res://practices/L2.P1.asteroid_field/moving_ship.gd
+res://practices/L2.P1.asteroid_field/moving_ship.tscn
+res://lessons/runner.gd
