@@ -4,3 +4,4 @@ res://lessons/runner.tscn
 res://lessons/simple_obstacle.tscn
 res://lessons/game.tscn
 res://practices/L4.P1.bumping_in_wall/bumping_in_walls.tscn
+res://lessons/runner.gd

@@ -1,9 +1,9 @@
 extends CharacterBody2D
 
-var max_speed := 600.0
-
+@export var max_speed := 600.0
+@export var acceleration := 1200.0
+@export var deceleration := 1080.0
 @onready var _skin: Sprite2D = $_Skin
-
 
 const RUNNER_DOWN = preload("res://assets/runner_down.png")
 const RUNNER_DOWN_RIGHT = preload("res://assets/runner_down_right.png")
