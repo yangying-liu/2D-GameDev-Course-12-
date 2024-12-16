@@ -1,6 +1,6 @@
-res://practices/L4.P1.bumping_in_wall/bumping_in_walls.tscn
+res://lessons/Circuit.tscn
 res://addons/gdpractice/assets/theme.tres
 res://lessons/runner.tscn
 res://lessons/simple_obstacle.tscn
 res://lessons/game.tscn
-res://lessons/Circuit.tscn
+res://practices/L4.P1.bumping_in_wall/bumping_in_walls.tscn
