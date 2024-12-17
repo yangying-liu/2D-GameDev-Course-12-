@@ -35,4 +35,5 @@ position = Vector2(-620, -931)
 position = Vector2(-1409, 62)
 
 [node name="Circuit" parent="." instance=ExtResource("4_yeixo")]
+z_index = -1
 position = Vector2(-2, -2)
