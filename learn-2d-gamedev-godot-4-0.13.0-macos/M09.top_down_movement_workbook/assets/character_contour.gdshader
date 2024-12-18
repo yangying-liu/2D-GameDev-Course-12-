@@ -36,7 +36,7 @@ void fragment() {
 	vec4 screen_color = texture(TEXTURE, UV);
 	COLOR.rgb = mix(line_color.rgb, screen_color.rgb, screen_color.a);
 	COLOR.a = outline_mask;
-	
+
 	if(waves_height > 0.0){
 		float wave = sin((UV.x + TIME * 0.1) * 8.0 * PI) * 0.0125;
 		COLOR.a *= step(waves_height, 1.0 - UV.y + wave);

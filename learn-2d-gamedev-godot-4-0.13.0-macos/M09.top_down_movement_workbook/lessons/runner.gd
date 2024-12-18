@@ -5,6 +5,7 @@ extends CharacterBody2D
 @export var deceleration := 1080.0
 
 @onready var _runner_visual: RunnerVisual = %RunnerVisualRed
+@onready var dust: GPUParticles2D = $Dust
 
 func _physics_process(delta: float) -> void:
 	var direction := Input.get_vector("move_left", "move_right", "move_up", "move_down")
@@ -26,3 +27,8 @@ func _physics_process(delta: float) -> void:
 		)
 	else:
 		_runner_visual.animation_name = RunnerVisual.Animations.IDLE
+	
+	if direction.length() > 0.0:
+		dust.emitting = true
+	else:
+		dust.emitting = false
