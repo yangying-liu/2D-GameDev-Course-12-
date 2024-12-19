@@ -5,3 +5,4 @@ res://lessons/pause_screen.tscn
 res://lessons/runner.tscn
 res://lessons/bouncer.tscn
 res://lessons/bouncer.gd
+res://lessons/game.gd
