@@ -6,3 +6,5 @@ res://lessons/runner.tscn
 res://lessons/bouncer.tscn
 res://lessons/bouncer.gd
 res://lessons/game.gd
+res://lessons/raycast_test.tscn
+res://lessons/ray_cast_2d.gd
