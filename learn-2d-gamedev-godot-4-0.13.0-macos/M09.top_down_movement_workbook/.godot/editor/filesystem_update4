@@ -1,11 +1,11 @@
-res://practices/L8.P1.move_to_mouse/move_to_mouse.tscn
+res://lessons/game.tscn
 res://addons/gdpractice/assets/theme.tres
 res://assets/character_contour.gdshader
-res://practices/L8.P1.move_to_mouse/move_to_mouse.gd
 res://lessons/runner.tscn
 res://lessons/simple_obstacle.tscn
-res://lessons/game.tscn
 res://lessons/Circuit.tscn
 res://assets/runner/runner_visual_red.tscn
 res://lessons/test_particles.tscn
-res://assets/finish_line/finish_line.tscn
+res://lessons/game.gd
+res://pause_screen.tscn
+res://pause_screen.gd
