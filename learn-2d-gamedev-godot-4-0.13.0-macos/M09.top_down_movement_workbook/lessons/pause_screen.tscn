@@ -2,7 +2,7 @@
 
 [ext_resource type="FontFile" uid="uid://vxbfcnef0pvq" path="res://assets/fonts/rubik/Rubik-Bold.ttf" id="1_de6tr"]
 [ext_resource type="Shader" path="res://assets/blur.gdshader" id="2_mdner"]
-[ext_resource type="Script" path="res://pause_screen.gd" id="2_y73qv"]
+[ext_resource type="Script" path="res://lessons/pause_screen.gd" id="2_y73qv"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mo13x"]
 content_margin_left = 20.0

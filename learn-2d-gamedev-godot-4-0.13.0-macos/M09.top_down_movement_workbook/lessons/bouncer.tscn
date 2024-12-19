@@ -1,10 +1,10 @@
-[gd_scene load_steps=14 format=3 uid="uid://dgrat4mgnal50"]
+[gd_scene load_steps=14 format=3 uid="uid://gwsnxqliq6d3"]
 
-[ext_resource type="Script" path="res://lessons/runner.gd" id="1_60sfa"]
-[ext_resource type="Texture2D" uid="uid://dbcmxo51msi8m" path="res://assets/runner/shadow.png" id="3_67qix"]
-[ext_resource type="PackedScene" uid="uid://bm8s1oaoxngwq" path="res://assets/runner/runner_visual_red.tscn" id="3_fn45d"]
-[ext_resource type="Shader" path="res://assets/character_contour.gdshader" id="4_5pubb"]
-[ext_resource type="Texture2D" uid="uid://bkq3gfbp5fwqx" path="res://assets/circle_64x64.png" id="5_3jbqn"]
+[ext_resource type="Script" path="res://lessons/bouncer.gd" id="1_ctuui"]
+[ext_resource type="Texture2D" uid="uid://dbcmxo51msi8m" path="res://assets/runner/shadow.png" id="2_na3ca"]
+[ext_resource type="PackedScene" uid="uid://hjn4sr1lgmmx" path="res://assets/runner/runner_visual_purple.tscn" id="4_6r1o3"]
+[ext_resource type="Shader" path="res://assets/character_contour.gdshader" id="4_en1hu"]
+[ext_resource type="Texture2D" uid="uid://bkq3gfbp5fwqx" path="res://assets/circle_64x64.png" id="5_l7m1a"]
 
 [sub_resource type="Curve" id="Curve_d016b"]
 _data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.826633, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.00213218), 0.0, 0.0, 0, 0]
@@ -32,7 +32,7 @@ alpha_curve = SubResource("CurveTexture_dasga")
 radius = 23.0
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_aosmk"]
-shader = ExtResource("4_5pubb")
+shader = ExtResource("4_en1hu")
 shader_parameter/viewport_scale = Vector2(1, 1)
 shader_parameter/line_color = Color(0, 0, 0, 1)
 shader_parameter/line_thickness = 4.0
@@ -41,33 +41,32 @@ shader_parameter/waves_height = 0.0
 [sub_resource type="ViewportTexture" id="ViewportTexture_304tx"]
 viewport_path = NodePath("SubViewport")
 
-[node name="Runner" type="CharacterBody2D"]
+[node name="Bouncer" type="CharacterBody2D"]
+position = Vector2(927, 525)
 motion_mode = 1
-script = ExtResource("1_60sfa")
+script = ExtResource("1_ctuui")
 
 [node name="Shadow" type="Sprite2D" parent="."]
 modulate = Color(0, 0, 0, 0.156863)
 position = Vector2(0, -58)
-texture = ExtResource("3_67qix")
+texture = ExtResource("2_na3ca")
 
 [node name="Dust" type="GPUParticles2D" parent="."]
+unique_name_in_owner = true
 position = Vector2(0, -18)
 emitting = false
 process_material = SubResource("ParticleProcessMaterial_l4q84")
-texture = ExtResource("5_3jbqn")
+texture = ExtResource("5_l7m1a")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -18)
 shape = SubResource("CircleShape2D_a532u")
 
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(0, -58)
-
 [node name="SubViewport" type="SubViewport" parent="."]
 transparent_bg = true
 size = Vector2i(124, 150)
 
-[node name="RunnerVisualRed" parent="SubViewport" instance=ExtResource("3_fn45d")]
+[node name="RunnerVisualPurple" parent="SubViewport" instance=ExtResource("4_6r1o3")]
 unique_name_in_owner = true
 position = Vector2(62, 120)
 scale = Vector2(0.5, 0.5)

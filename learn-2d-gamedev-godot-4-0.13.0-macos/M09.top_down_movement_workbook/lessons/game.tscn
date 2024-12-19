@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://xl56q8amb611" path="res://assets/finish_line/finish_line.tscn" id="5_nsspu"]
 [ext_resource type="Theme" uid="uid://cdcyvsn1fp8wa" path="res://assets/countdown/count_down_theme.tres" id="7_10ykw"]
 [ext_resource type="Script" path="res://assets/countdown/count_down.gd" id="8_hnbmf"]
-[ext_resource type="PackedScene" uid="uid://culw4irve1vo6" path="res://pause_screen.tscn" id="9_8dunu"]
+[ext_resource type="PackedScene" uid="uid://culw4irve1vo6" path="res://lessons/pause_screen.tscn" id="9_8dunu"]
 
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
