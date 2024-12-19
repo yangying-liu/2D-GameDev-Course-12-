@@ -31,12 +31,13 @@ PanelContainer/styles/panel = SubResource("StyleBoxFlat_q0cy4")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_k3r4h"]
 shader = ExtResource("2_mdner")
-shader_parameter/blur_amount = 1.5
+shader_parameter/blur_amount = 0.0
 shader_parameter/tint = null
 shader_parameter/tint_strength = 0.0
-shader_parameter/saturation = 0.3
+shader_parameter/saturation = 1.0
 
 [node name="PauseScreen" type="Control"]
+process_mode = 3
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -88,9 +89,11 @@ size_flags_vertical = 3
 layout_mode = 2
 
 [node name="ResumeButton" type="Button" parent="UIPanelContainer/VBoxContainer/CenterContainer/VBoxContainer"]
+unique_name_in_owner = true
 layout_mode = 2
 text = "Resume"
 
 [node name="QuitButton" type="Button" parent="UIPanelContainer/VBoxContainer/CenterContainer/VBoxContainer"]
+unique_name_in_owner = true
 layout_mode = 2
 text = "Quit"

@@ -16,14 +16,17 @@ script = ExtResource("1_qwg74")
 
 [node name="Runner" parent="." instance=ExtResource("1_facqx")]
 unique_name_in_owner = true
+process_mode = 1
 position = Vector2(792, 955)
 
 [node name="FinishLine" parent="." instance=ExtResource("5_nsspu")]
 unique_name_in_owner = true
+process_mode = 1
 position = Vector2(582, 1202)
 area_width = 256
 
 [node name="CircuitBackground" type="Sprite2D" parent="."]
+process_mode = 1
 z_index = -1
 position = Vector2(1925, 1350)
 texture = ExtResource("1_jbvxe")
@@ -47,6 +50,7 @@ position = Vector2(1303, 444)
 position = Vector2(514, 1437)
 
 [node name="Circuit" parent="." instance=ExtResource("4_yeixo")]
+process_mode = 1
 z_index = -1
 position = Vector2(1921, 1373)
 
@@ -73,4 +77,4 @@ vertical_alignment = 1
 script = ExtResource("8_hnbmf")
 
 [node name="PauseScreen" parent="CanvasLayer" instance=ExtResource("9_8dunu")]
-menu_opened_amount = 0.926
+visible = false
