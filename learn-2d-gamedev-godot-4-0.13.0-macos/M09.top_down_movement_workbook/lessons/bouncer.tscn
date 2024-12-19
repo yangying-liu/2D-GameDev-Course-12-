@@ -84,3 +84,14 @@ unique_name_in_owner = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox"]
 shape = SubResource("CircleShape2D_lejb6")
+
+[node name="Raycasts" type="Node2D" parent="."]
+unique_name_in_owner = true
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycasts"]
+rotation = 0.786393
+target_position = Vector2(100, 0)
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycasts"]
+rotation = 2.35828
+target_position = Vector2(100, 0)

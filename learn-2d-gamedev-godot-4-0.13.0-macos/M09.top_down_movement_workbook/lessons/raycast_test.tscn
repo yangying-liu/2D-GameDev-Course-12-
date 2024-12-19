@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://ci5v634k2v2h8"]
+[gd_scene load_steps=5 format=3 uid="uid://ci5v634k2v2h8"]
 
 [ext_resource type="Script" path="res://lessons/ray_cast_2d.gd" id="1_rvsju"]
 [ext_resource type="PackedScene" uid="uid://upfn8bi5jgpw" path="res://lessons/simple_obstacle.tscn" id="1_wb82y"]
+[ext_resource type="PackedScene" uid="uid://gwsnxqliq6d3" path="res://lessons/bouncer.tscn" id="3_2tt5t"]
+[ext_resource type="PackedScene" uid="uid://dgrat4mgnal50" path="res://lessons/runner.tscn" id="4_mjxpy"]
 
 [node name="RaycastTest" type="Node2D"]
 
@@ -10,4 +12,19 @@ position = Vector2(950, 449)
 script = ExtResource("1_rvsju")
 
 [node name="SimpleObstacle" parent="." instance=ExtResource("1_wb82y")]
-position = Vector2(950, 449)
+position = Vector2(951, 425)
+
+[node name="SimpleObstacle2" parent="." instance=ExtResource("1_wb82y")]
+position = Vector2(685, 245)
+
+[node name="SimpleObstacle3" parent="." instance=ExtResource("1_wb82y")]
+position = Vector2(1134, 230)
+
+[node name="SimpleObstacle4" parent="." instance=ExtResource("1_wb82y")]
+position = Vector2(1124, 616)
+
+[node name="Bouncer" parent="." instance=ExtResource("3_2tt5t")]
+position = Vector2(491, 671)
+
+[node name="Runner" parent="." instance=ExtResource("4_mjxpy")]
+position = Vector2(1109, 554)
