@@ -1,10 +1,6 @@
 res://lessons/game.tscn
 res://addons/gdpractice/assets/theme.tres
 res://assets/character_contour.gdshader
-res://lessons/pause_screen.tscn
-res://lessons/runner.tscn
 res://lessons/bouncer.tscn
-res://lessons/bouncer.gd
-res://lessons/game.gd
 res://lessons/raycast_test.tscn
-res://lessons/ray_cast_2d.gd
+res://lessons/simple_obstacle.tscn
